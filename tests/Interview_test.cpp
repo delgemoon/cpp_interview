@@ -2,6 +2,6 @@
 #include "libs/Interview.h"
 
 
-//TEST(HelloWorld, Simple) {
-//	EXPECT_EQ (getHelloWorld(), "Hello World");
-//}
+TEST(HelloWorld, Simple) {
+	EXPECT_EQ (getHelloWorld(), "Hello World");
+}
