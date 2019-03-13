@@ -10,7 +10,16 @@
 
 #include <string>
 
-const std::string& getHelloWorld();
+using namespace std;
+
+static const string HELLO_WORLD="Hello World";
+
+
+const string& getHelloWorld();
+
+const string kLastLines(string fileName, int k);
+
+const int countWordOccurencies(const string book, string expectedWord);
 
 
 #endif /* LIBS_INTERVIEW_H_ */
